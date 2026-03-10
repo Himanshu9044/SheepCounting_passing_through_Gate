@@ -1,0 +1,15 @@
+# Python
+__pycache__/
+*.pyc
+
+# Virtual environments
+venv/
+env/
+sheep_env/
+
+# Large files
+*.mp4
+*.pt
+
+# OS files
+.DS_Store
