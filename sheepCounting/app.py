@@ -2,7 +2,7 @@ import cv2
 import supervision as sv
 from ultralytics import YOLO
 
-model = YOLO("yolov8n.pt")
+model = YOLO("yolov8n.pt") #for better accuracy we can use ("yolo26x.pt")
 
 cap = cv2.VideoCapture("sheeps passing through the gate(1).mp4")
 cap.set(cv2.CAP_PROP_BUFFERSIZE, 1)
